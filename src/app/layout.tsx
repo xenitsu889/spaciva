@@ -17,7 +17,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Vortexa Technolabs — Engineering Growth for Modern Brands",
+  title: "SPACIVA — Technology & Marketing",
   description:
     "We help startups and businesses scale through powerful marketing strategies and cutting-edge technology. Digital Marketing, Web Development, Branding & more.",
   keywords: [
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     "SEO",
     "performance marketing",
     "Ahmedabad",
-    "Vortexa Technolabs",
+    "SPACIVA",
   ],
   openGraph: {
-    title: "Vortexa Technolabs — Engineering Growth for Modern Brands",
+    title: "SPACIVA — Technology & Marketing",
     description:
       "We help startups and businesses scale through powerful marketing strategies and cutting-edge technology.",
     url: "https://vortexatechnolabs.tech",
-    siteName: "Vortexa Technolabs",
+    siteName: "SPACIVA",
     type: "website",
   },
 };

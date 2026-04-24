@@ -216,15 +216,6 @@ const caseStudies: CaseStudy[] = [
   },
 ];
 
-function clampLinesStyle(lines: number) {
-  return {
-    display: "-webkit-box",
-    WebkitLineClamp: lines,
-    WebkitBoxOrient: "vertical" as const,
-    overflow: "hidden",
-  };
-}
-
 function CaseStudyCard({ study, index }: { study: CaseStudy; index: number }) {
   const [activeTab, setActiveTab] = useState(0);
 
@@ -381,8 +372,8 @@ function CaseStudyCard({ study, index }: { study: CaseStudy; index: number }) {
                 <p className="text-sm font-semibold">Problem</p>
               </div>
               <p
-                className="text-[13px] leading-relaxed mt-3"
-                style={{ color: "var(--text-secondary)", ...clampLinesStyle(2) }}
+                className="text-[13px] sm:text-sm leading-relaxed mt-3"
+                style={{ color: "var(--text-primary)" }}
               >
                 {study.problemStatement}
               </p>

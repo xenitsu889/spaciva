@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "logos:spaciva": "node remove-bg.js"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",

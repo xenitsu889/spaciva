@@ -26,8 +26,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <a href="#" className="shrink-0">
             <Image
-              src={theme === "dark" ? "/logo-v2.png" : "/logo-light.png"}
-              alt="Vortexa Technolabs"
+              src={theme === "dark" ? "/spaciva_dark.png" : "/spaciva_light.png"}
+              alt="SPACIVA"
               width={140}
               height={48}
               className="h-10 w-auto"

@@ -4,17 +4,17 @@ import AnimatedSection from "./AnimatedSection";
 
 const testimonials = [
   {
-    quote: "Vortexa transformed our online presence and delivered real growth. Their team combines marketing intuition with technical excellence.",
+    quote: "SPACIVA transformed our online presence and delivered real growth. Their team combines marketing intuition with technical excellence.",
     name: "Arjun Mehta",
     role: "Founder, NovaCart",
   },
   {
-    quote: "Working with Vortexa was a game-changer. They built us a stunning website and ran campaigns that actually converted.",
+    quote: "Working with SPACIVA was a game-changer. They built us a stunning website and ran campaigns that actually converted.",
     name: "Priya Sharma",
     role: "CEO, FitSphere",
   },
   {
-    quote: "From strategy to execution, the Vortexa team exceeded expectations. Our organic traffic grew 3x in four months.",
+    quote: "From strategy to execution, the SPACIVA team exceeded expectations. Our organic traffic grew 3x in four months.",
     name: "Rahul Desai",
     role: "Marketing Head, TechNova",
   },

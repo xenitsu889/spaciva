@@ -29,8 +29,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-10 mb-12">
           <div className="max-w-xs">
             <Image
-              src={theme === "dark" ? "/logo-v2.png" : "/logo-light.png"}
-              alt="Vortexa Technolabs"
+              src={theme === "dark" ? "/spaciva_dark.png" : "/spaciva_light.png"}
+              alt="SPACIVA"
               width={120}
               height={40}
               className="h-10 w-auto mb-4"
@@ -94,7 +94,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid var(--border-subtle)" }}
         >
           <p className="text-[11px]" style={{ color: "var(--text-faint)" }}>
-            © {new Date().getFullYear()} Vortexa Technolabs. All rights reserved.
+            © {new Date().getFullYear()} SPACIVA. All rights reserved.
           </p>
           <p className="text-[11px]" style={{ color: "var(--text-faint)" }}>
             Ahmedabad, India
