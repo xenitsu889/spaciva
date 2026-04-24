@@ -130,8 +130,8 @@ const caseStudies: CaseStudy[] = [
   {
     name: "Vachnamrut AI",
     type: "Spiritual AI Awareness",
-    imageSrc: "/logo-new.png",
-    imageAlt: "Vachnamrut AI",
+    imageSrc: "/vachnamrut.png",
+    imageAlt: "Vachnamrut AI logo",
     url: null,
     impact: "Drove awareness with platform-native content + focused targeting.",
     problemStatement:

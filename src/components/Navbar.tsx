@@ -25,14 +25,16 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="shrink-0">
-            <Image
-              src={theme === "dark" ? "/spaciva_dark.png" : "/spaciva_light.png"}
-              alt="SPACIVA"
-              width={140}
-              height={48}
-              className="h-10 w-auto"
-              priority
-            />
+            <div className="relative h-12 w-40 sm:h-14 sm:w-48">
+              <Image
+                src={theme === "dark" ? "/spaciva_dark.png" : "/spaciva_light.png"}
+                alt="SPACIVA"
+                fill
+                sizes="192px"
+                className="object-cover object-bottom"
+                priority
+              />
+            </div>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
