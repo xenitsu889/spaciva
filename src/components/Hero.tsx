@@ -63,8 +63,8 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-3"
         >
           <a
-            href="#cta"
-            className="group flex items-center gap-2 px-6 py-3 text-sm font-medium text-white rounded-full bg-gradient-to-r from-electric-blue to-violet hover:shadow-lg hover:shadow-violet/20 transition-all duration-300"
+            href="#contact"
+            className="group flex items-center gap-2 px-6 py-3 text-sm font-medium text-white rounded-full bg-linear-to-r from-electric-blue to-violet hover:shadow-lg hover:shadow-violet/20 transition-all duration-300"
           >
             Get Started
             <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform" />

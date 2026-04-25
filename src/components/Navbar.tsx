@@ -86,7 +86,7 @@ export default function Navbar() {
             </button>
 
             <a
-              href="#cta"
+              href="#contact"
               className="text-[13px] font-medium px-5 py-2 rounded-full transition-all duration-300"
               style={{
                 color: "var(--text-primary)",
@@ -146,7 +146,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="#cta"
+                href="#contact"
                 onClick={() => setIsOpen(false)}
                 className="text-sm font-medium text-center py-2.5 rounded-full transition-colors"
                 style={{
