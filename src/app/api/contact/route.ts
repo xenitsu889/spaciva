@@ -27,6 +27,9 @@ export async function POST(request: Request) {
     );
   }
 
+  const to = process.env.RESEND_TO || "spacivatech@gmail.com";
+  const from = process.env.RESEND_FROM || "SPACIVA <contact@spaciva.tech>";
+
   let body: ContactPayload;
   try {
     body = (await request.json()) as ContactPayload;
@@ -60,8 +63,6 @@ export async function POST(request: Request) {
   }
 
   const resend = new Resend(apiKey);
-
-  const to = "spacivatech@gmail.com";
   const subject = `New contact submission — ${name}`;
 
   const text = [
@@ -90,7 +91,7 @@ export async function POST(request: Request) {
 
   try {
     await resend.emails.send({
-      from: "SPACIVA <onboarding@resend.dev>",
+      from,
       to,
       subject,
       replyTo: email,

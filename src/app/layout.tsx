@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "SPACIVA — Technology & Marketing",
     description:
       "We help startups and businesses scale through powerful marketing strategies and cutting-edge technology.",
-    url: "https://vortexatechnolabs.tech",
+    url: "https://spaciva.tech",
     siteName: "SPACIVA",
     type: "website",
   },
