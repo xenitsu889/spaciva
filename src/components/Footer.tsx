@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
 import { useTheme } from "./ThemeProvider";
 
 const footerLinks = [
@@ -9,12 +8,6 @@ const footerLinks = [
   { name: "Work", href: "#portfolio" },
   { name: "Process", href: "#process" },
   { name: "Testimonials", href: "#testimonials" },
-];
-
-const socials = [
-  { name: "Twitter", href: "#" },
-  { name: "LinkedIn", href: "#" },
-  { name: "Instagram", href: "#" },
 ];
 
 export default function Footer() {
@@ -60,27 +53,6 @@ export default function Footer() {
                       style={{ color: "var(--text-muted)" }}
                     >
                       {link.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4
-                className="text-xs font-medium uppercase tracking-wider mb-4"
-                style={{ color: "var(--text-secondary)" }}
-              >
-                Connect
-              </h4>
-              <ul className="space-y-2.5">
-                {socials.map((s) => (
-                  <li key={s.name}>
-                    <a
-                      href={s.href}
-                      className="text-[13px] transition-colors inline-flex items-center gap-1"
-                      style={{ color: "var(--text-muted)" }}
-                    >
-                      {s.name} <ArrowUpRight size={10} />
                     </a>
                   </li>
                 ))}
